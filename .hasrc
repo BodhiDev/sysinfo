@@ -1,0 +1,31 @@
+# Core application and commands used by sysinfo.sh
+bash
+yad
+sed
+lscpu
+lspci
+grep
+head
+cut
+awk
+glxinfo
+xrandr
+df
+tail
+modinfo
+acpi
+lsusb
+mktemp
+uname
+inxi
+free
+lsb_release
+hostname
+pkg-config
+uptime
+
+# Used by the Copy buttons
+xclip
+
+# Optional Moksha version reporting
+enlightenment_remote
