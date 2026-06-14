@@ -1,0 +1,6 @@
+DOMAIN = sysinfo
+
+XGETTEXT_OPTIONS = \
+    --from-code=UTF-8 \
+    --keyword=_ \
+    --add-comments
