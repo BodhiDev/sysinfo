@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+_Name=System Information
+_Comment=Display hardware and system information
+Exec=sysinfo
+Icon=sysinfo
+Categories=System;
+Terminal=false
+StartupNotify=true
