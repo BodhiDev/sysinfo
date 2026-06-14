@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sysinfo 1.0\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: https://github.com/BodhiDev/sysinfo/issues\n"
 "POT-Creation-Date: 2026-06-14 21:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
