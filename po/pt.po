@@ -1,0 +1,239 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the sysinfo package.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sysinfo 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-17 16:24+0200\n"
+"PO-Revision-Date: 2026-06-17 15:55+0100\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"Language-Team: Portuguese\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: src/sysinfo.sh:66
+msgid "Module information"
+msgstr "Informações do módulo"
+
+#: src/sysinfo.sh:66 src/sysinfo.sh:223
+msgid "Close"
+msgstr "Fechar"
+
+#: src/sysinfo.sh:86
+msgid "Threads"
+msgstr "Threads"
+
+#: src/sysinfo.sh:89
+msgid "CPU Cores"
+msgstr "Núcleos CPU"
+
+#: src/sysinfo.sh:92
+msgid "Sockets"
+msgstr "Sockets"
+
+#: src/sysinfo.sh:95
+msgid "Threads per core"
+msgstr "Threads por núcleo"
+
+#: src/sysinfo.sh:103
+msgid "CPU information"
+msgstr "Informações da CPU"
+
+#: src/sysinfo.sh:104 src/sysinfo.sh:133 src/sysinfo.sh:138
+msgid "Parameter"
+msgstr "Parâmetros"
+
+#: src/sysinfo.sh:104 src/sysinfo.sh:133 src/sysinfo.sh:138
+msgid "Value"
+msgstr "Valor"
+
+#: src/sysinfo.sh:105
+msgid "Copy"
+msgstr "Copiar"
+
+#: src/sysinfo.sh:123 src/sysinfo.sh:225
+msgid "GPU"
+msgstr "GPU"
+
+#: src/sysinfo.sh:124
+msgid "Driver"
+msgstr "Controlador"
+
+#: src/sysinfo.sh:125
+msgid "Resolution"
+msgstr "Resolução"
+
+#: src/sysinfo.sh:126
+msgid "Renderer"
+msgstr "Renderizador"
+
+#: src/sysinfo.sh:127
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: src/sysinfo.sh:128
+msgid "Session"
+msgstr "Sessão"
+
+#: src/sysinfo.sh:131
+msgid "GPU information"
+msgstr "Informações da GPU"
+
+#: src/sysinfo.sh:137
+msgid "Memory usage information"
+msgstr "Informações sobre a utilização da memória"
+
+#: src/sysinfo.sh:142
+msgid "Disk space usage"
+msgstr "Utilização do espaço em disco"
+
+#: src/sysinfo.sh:143 src/sysinfo.sh:150 src/sysinfo.sh:162 src/sysinfo.sh:174
+msgid "Device"
+msgstr "Dispositivo"
+
+#: src/sysinfo.sh:143
+msgid "Mountpoint"
+msgstr "Ponto de montagem"
+
+#: src/sysinfo.sh:143
+msgid "Type"
+msgstr "Tipo"
+
+#: src/sysinfo.sh:144
+msgid "Total:"
+msgstr "Total:"
+
+#: src/sysinfo.sh:144
+msgid "Free:"
+msgstr "Livre:"
+
+#: src/sysinfo.sh:144
+msgid "Usage:"
+msgstr "Utilização:"
+
+#: src/sysinfo.sh:148
+msgid "PCI bus devices"
+msgstr "Dispositivos de barramento PCI"
+
+#: src/sysinfo.sh:149
+msgid "ID"
+msgstr "ID"
+
+#: src/sysinfo.sh:149
+msgid "Class"
+msgstr "Classe"
+
+#: src/sysinfo.sh:150
+msgid "Vendor"
+msgstr "Fornecedor"
+
+#: src/sysinfo.sh:150
+msgid "Revision"
+msgstr "Revisão"
+
+#: src/sysinfo.sh:154
+msgid "Loaded kernel modules"
+msgstr "Módulos do kernel carregados"
+
+#: src/sysinfo.sh:157
+msgid "Name"
+msgstr "Nome"
+
+#: src/sysinfo.sh:157
+msgid "Used"
+msgstr "Utilizado"
+
+#: src/sysinfo.sh:157
+msgid "Depends"
+msgstr "Depende"
+
+#: src/sysinfo.sh:161
+msgid "Battery state"
+msgstr "Estado da bateria"
+
+#: src/sysinfo.sh:162
+msgid "Details"
+msgstr "Detalhes"
+
+#: src/sysinfo.sh:172
+msgid "Network information"
+msgstr "Informações da rede"
+
+#: src/sysinfo.sh:212
+msgid "Hardware system information"
+msgstr "Informações do sistema de hardware"
+
+#: src/sysinfo.sh:213
+msgid "OS"
+msgstr "Sistema Operativo"
+
+#: src/sysinfo.sh:213
+msgid "on"
+msgstr "ligado"
+
+#: src/sysinfo.sh:214
+msgid "Not installed"
+msgstr "Não instalado"
+
+#: src/sysinfo.sh:216
+msgid "Moskha"
+msgstr "Moskha"
+
+#: src/sysinfo.sh:217
+msgid "Kernel"
+msgstr "Kernel"
+
+#: src/sysinfo.sh:223
+msgid "System information"
+msgstr "Informações do sistema"
+
+#: src/sysinfo.sh:224
+msgid "Copy report"
+msgstr "Copiar relatório"
+
+#: src/sysinfo.sh:225
+msgid "CPU"
+msgstr "CPU"
+
+#: src/sysinfo.sh:225
+msgid "Memory"
+msgstr "Memória"
+
+#: src/sysinfo.sh:226
+msgid "Disks"
+msgstr "Discos"
+
+#: src/sysinfo.sh:226
+msgid "PCI"
+msgstr "PCI"
+
+#: src/sysinfo.sh:226
+msgid "Modules"
+msgstr "Módulos"
+
+#: src/sysinfo.sh:227
+msgid "Battery"
+msgstr "Bateria"
+
+#: src/sysinfo.sh:227
+msgid "Network"
+msgstr "Rede"
+
+#: data/sysinfo.desktop.in.h:1
+msgid "System Information"
+msgstr "Informações do sistema"
+
+#: data/sysinfo.desktop.in.h:2
+msgid "Display hardware and system information"
+msgstr "Mostrar informações do hardware e sistema"
+
+#: data/sysinfo.desktop.in.h:3
+msgid "system;hardware;cpu;memory;disk;pci;network;battery;"
+msgstr "sistema;hardware;cpu;memória;disco;pci;rede;bateria;"
