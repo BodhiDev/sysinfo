@@ -1,0 +1,33 @@
+Source: bodhi-sysinfo
+Section: utils
+Priority: optional
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Build-Depends: debhelper (>= 12), gettext
+Standards-Version: 4.7.2
+Homepage: https://github.com/BodhiDev/sysinfo/
+Rules-Requires-Root: no
+
+Package: bodhi-sysinfo
+Architecture: all
+Depends:
+ ${misc:Depends},
+ acpi,
+ efl-version,
+ inxi,
+ kmod,
+ lsb-release,
+ mawk | gawk,
+ mesa-utils,
+ pciutils,
+ procps,
+ usbutils,
+ x11-xserver-utils,
+ xsel,
+ yad
+Description: graphical system information viewer
+ Sysinfo is a lightweight YAD-based graphical utility for viewing system and
+ hardware information.
+ .
+ It presents CPU, graphics, memory, storage, PCI, kernel module, battery, and
+ network information in a tabbed interface. It can also generate and copy a
+ concise system report.
