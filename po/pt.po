@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sysinfo 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-18 16:32+0200\n"
-"PO-Revision-Date: 2026-06-17 15:55+0100\n"
+"PO-Revision-Date: 2026-06-19 22:23+0100\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese\n"
 "Language: pt\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.9\n"
 
 #: src/sysinfo.sh:66
 msgid "Module information"
@@ -164,7 +164,7 @@ msgstr "Informações da rede"
 
 #: src/sysinfo.sh:255
 msgid "Not found"
-msgstr ""
+msgstr "Não encontrado"
 
 #: src/sysinfo.sh:261
 msgid "Hardware system information"
