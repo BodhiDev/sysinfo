@@ -1,0 +1,234 @@
+# मराठी translation for sysinfo
+# Copyright (C) 2026 Bodhi Linux Team
+# This file is distributed under the same license as the sysinfo package.
+# pagoda <lsaurabh.94@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sysinfo 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-18 16:32+0200\n"
+"PO-Revision-Date: 2026-06-29 18:06+0530\n"
+"Last-Translator: Saurabh Landge\n"
+"Language-Team: Bodhi\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#: src/sysinfo.sh:66
+msgid "Module information"
+msgstr "मॉड्यूल माहिती"
+
+#: src/sysinfo.sh:66 src/sysinfo.sh:272
+msgid "Close"
+msgstr "बंद"
+
+#: src/sysinfo.sh:86
+msgid "Threads"
+msgstr "थ्रेड्स"
+
+#: src/sysinfo.sh:89
+msgid "CPU Cores"
+msgstr "सीपीयू कोअर्स"
+
+#: src/sysinfo.sh:92
+msgid "Sockets"
+msgstr "सॉकेट्स"
+
+#: src/sysinfo.sh:95
+msgid "Threads per core"
+msgstr "प्रति कोअर थ्रेड्स"
+
+#: src/sysinfo.sh:103
+msgid "CPU information"
+msgstr "सीपीयू माहिती"
+
+#: src/sysinfo.sh:104 src/sysinfo.sh:132 src/sysinfo.sh:137
+msgid "Parameter"
+msgstr "पॅरामीटर"
+
+#: src/sysinfo.sh:104 src/sysinfo.sh:132 src/sysinfo.sh:137
+msgid "Value"
+msgstr "मूल्य"
+
+#: src/sysinfo.sh:122 src/sysinfo.sh:274
+msgid "GPU"
+msgstr "जीपीयू"
+
+#: src/sysinfo.sh:123
+msgid "Driver"
+msgstr "ड्राइव्हर"
+
+#: src/sysinfo.sh:124
+msgid "Resolution"
+msgstr "रेझोल्यूशन"
+
+#: src/sysinfo.sh:125
+msgid "Renderer"
+msgstr "रेंडरर"
+
+#: src/sysinfo.sh:126
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: src/sysinfo.sh:127
+msgid "Session"
+msgstr "सत्र"
+
+#: src/sysinfo.sh:130
+msgid "GPU information"
+msgstr "जीपीयू माहिती"
+
+#: src/sysinfo.sh:136
+msgid "Memory usage information"
+msgstr "मेमरी वापर माहिती"
+
+#: src/sysinfo.sh:141
+msgid "Disk space usage"
+msgstr "डिस्क जागा वापर"
+
+#: src/sysinfo.sh:142 src/sysinfo.sh:149 src/sysinfo.sh:161 src/sysinfo.sh:173
+msgid "Device"
+msgstr "डिव्हाइस"
+
+#: src/sysinfo.sh:142
+msgid "Mountpoint"
+msgstr "माउंटपॉइंट"
+
+#: src/sysinfo.sh:142
+msgid "Type"
+msgstr "प्रकार"
+
+#: src/sysinfo.sh:143
+msgid "Total:"
+msgstr "एकूण:"
+
+#: src/sysinfo.sh:143
+msgid "Free:"
+msgstr "शिल्लक:"
+
+#: src/sysinfo.sh:143
+msgid "Usage:"
+msgstr "वापर:"
+
+#: src/sysinfo.sh:147
+msgid "PCI bus devices"
+msgstr "PCI बस डिव्हाइसेस"
+
+#: src/sysinfo.sh:148
+msgid "ID"
+msgstr "आयडी"
+
+#: src/sysinfo.sh:148
+msgid "Class"
+msgstr "वर्ग"
+
+#: src/sysinfo.sh:149
+msgid "Vendor"
+msgstr "विक्रेता"
+
+#: src/sysinfo.sh:149
+msgid "Revision"
+msgstr "सुधारणा (रिव्हिजन)"
+
+#: src/sysinfo.sh:153
+msgid "Loaded kernel modules"
+msgstr "लोड केलेले कर्नल मॉड्यूल्स"
+
+#: src/sysinfo.sh:156
+msgid "Name"
+msgstr "नाव"
+
+#: src/sysinfo.sh:156
+msgid "Used"
+msgstr "वापरलेले"
+
+#: src/sysinfo.sh:156
+msgid "Depends"
+msgstr "अवलंबून"
+
+#: src/sysinfo.sh:160
+msgid "Battery state"
+msgstr "बॅटरीची स्थिती"
+
+#: src/sysinfo.sh:161
+msgid "Details"
+msgstr "तपशील"
+
+#: src/sysinfo.sh:171
+msgid "Network information"
+msgstr "नेटवर्क माहिती"
+
+#: src/sysinfo.sh:255
+msgid "Not found"
+msgstr "सापडले नाही"
+
+#: src/sysinfo.sh:261
+msgid "Hardware system information"
+msgstr "हार्डवेअर प्रणाली माहिती"
+
+#: src/sysinfo.sh:262
+msgid "OS"
+msgstr "ओएस"
+
+#: src/sysinfo.sh:262
+msgid "on"
+msgstr "वर"
+
+#: src/sysinfo.sh:265
+msgid "Moksha"
+msgstr "मोक्ष"
+
+#: src/sysinfo.sh:266
+msgid "Kernel"
+msgstr "कर्नल"
+
+#: src/sysinfo.sh:272
+msgid "System information"
+msgstr "प्रणाली माहिती"
+
+#: src/sysinfo.sh:273
+msgid "Copy report"
+msgstr "अहवाल कॉपी करा"
+
+#: src/sysinfo.sh:274
+msgid "CPU"
+msgstr "सीपीयू"
+
+#: src/sysinfo.sh:274
+msgid "Memory"
+msgstr "मेमरी"
+
+#: src/sysinfo.sh:275
+msgid "Disks"
+msgstr "डिस्क"
+
+#: src/sysinfo.sh:275
+msgid "PCI"
+msgstr "PCI"
+
+#: src/sysinfo.sh:275
+msgid "Modules"
+msgstr "मॉड्यूल्स"
+
+#: src/sysinfo.sh:276
+msgid "Battery"
+msgstr "बॅटरी"
+
+#: src/sysinfo.sh:276
+msgid "Network"
+msgstr "नेटवर्क"
+
+#: data/sysinfo.desktop.in.h:1
+msgid "System Information"
+msgstr "सिस्टम माहिती"
+
+#: data/sysinfo.desktop.in.h:2
+msgid "Display hardware and system information"
+msgstr "हार्डवेअर आणि सिस्टम माहिती दाखवा"
+
+#: data/sysinfo.desktop.in.h:3
+msgid "system;hardware;cpu;memory;disk;pci;network;battery;"
+msgstr "सिस्टम;हार्डवेअर;सीपीयू;मेमरी;डिस्क;पीसीआय;नेटवर्क;बॅटरी;"
