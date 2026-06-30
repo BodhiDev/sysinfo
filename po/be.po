@@ -1,0 +1,233 @@
+# Belarusian translation for sysinfo
+# Copyright (C) 2026 Bodhi Linux Team
+# This file is distributed under the same license as the sysinfo package.
+# R0bur <robursw@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sysinfo 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-18 16:32+0200\n"
+"PO-Revision-Date: 2026-06-29 19:00+0300\n"
+"Last-Translator: R0bur <robursw@gmail.com>\n"
+"Language-Team: Belarusian\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/sysinfo.sh:66
+msgid "Module information"
+msgstr "Звесткі аб модулі"
+
+#: src/sysinfo.sh:66 src/sysinfo.sh:272
+msgid "Close"
+msgstr "Закрыць"
+
+#: src/sysinfo.sh:86
+msgid "Threads"
+msgstr "Патокі"
+
+#: src/sysinfo.sh:89
+msgid "CPU Cores"
+msgstr "Ядры CPU"
+
+#: src/sysinfo.sh:92
+msgid "Sockets"
+msgstr "Сокеты"
+
+#: src/sysinfo.sh:95
+msgid "Threads per core"
+msgstr "Патокаў на ядро"
+
+#: src/sysinfo.sh:103
+msgid "CPU information"
+msgstr "Звесткі аб CPU"
+
+#: src/sysinfo.sh:104 src/sysinfo.sh:132 src/sysinfo.sh:137
+msgid "Parameter"
+msgstr "Параметр"
+
+#: src/sysinfo.sh:104 src/sysinfo.sh:132 src/sysinfo.sh:137
+msgid "Value"
+msgstr "Значэнне"
+
+#: src/sysinfo.sh:122 src/sysinfo.sh:274
+msgid "GPU"
+msgstr "GPU"
+
+#: src/sysinfo.sh:123
+msgid "Driver"
+msgstr "Драйвер"
+
+#: src/sysinfo.sh:124
+msgid "Resolution"
+msgstr "Раздзяляльнасць"
+
+#: src/sysinfo.sh:125
+msgid "Renderer"
+msgstr "Рэндэрэр"
+
+#: src/sysinfo.sh:126
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: src/sysinfo.sh:127
+msgid "Session"
+msgstr "Сеанс"
+
+#: src/sysinfo.sh:130
+msgid "GPU information"
+msgstr "Звесткі аб GPU"
+
+#: src/sysinfo.sh:136
+msgid "Memory usage information"
+msgstr "Выкарыстанне памяці"
+
+#: src/sysinfo.sh:141
+msgid "Disk space usage"
+msgstr "Выкарыстанне дыскаў"
+
+#: src/sysinfo.sh:142 src/sysinfo.sh:149 src/sysinfo.sh:161 src/sysinfo.sh:173
+msgid "Device"
+msgstr "Прылада"
+
+#: src/sysinfo.sh:142
+msgid "Mountpoint"
+msgstr "Месца мантавання"
+
+#: src/sysinfo.sh:142
+msgid "Type"
+msgstr "Тып"
+
+#: src/sysinfo.sh:143
+msgid "Total:"
+msgstr "Усяго:"
+
+#: src/sysinfo.sh:143
+msgid "Free:"
+msgstr "Свабодна:"
+
+#: src/sysinfo.sh:143
+msgid "Usage:"
+msgstr "Занята:"
+
+#: src/sysinfo.sh:147
+msgid "PCI bus devices"
+msgstr "Прылады PCI"
+
+#: src/sysinfo.sh:148
+msgid "ID"
+msgstr "ІД"
+
+#: src/sysinfo.sh:148
+msgid "Class"
+msgstr "Клас"
+
+#: src/sysinfo.sh:149
+msgid "Vendor"
+msgstr "Вытворца"
+
+#: src/sysinfo.sh:149
+msgid "Revision"
+msgstr "Рэвізія"
+
+#: src/sysinfo.sh:153
+msgid "Loaded kernel modules"
+msgstr "Загружаны модулі ядра"
+
+#: src/sysinfo.sh:156
+msgid "Name"
+msgstr "Назва"
+
+#: src/sysinfo.sh:156
+msgid "Used"
+msgstr "Карыстаецца"
+
+#: src/sysinfo.sh:156
+msgid "Depends"
+msgstr "Залежыць"
+
+#: src/sysinfo.sh:160
+msgid "Battery state"
+msgstr "Стан батарэі"
+
+#: src/sysinfo.sh:161
+msgid "Details"
+msgstr "Падрабязнасці"
+
+#: src/sysinfo.sh:171
+msgid "Network information"
+msgstr "Звесткі пра сетку"
+
+#: src/sysinfo.sh:255
+msgid "Not found"
+msgstr "Не знойдзена"
+
+#: src/sysinfo.sh:261
+msgid "Hardware system information"
+msgstr "Звесткі аб абсталяванні"
+
+#: src/sysinfo.sh:262
+msgid "OS"
+msgstr "АС"
+
+#: src/sysinfo.sh:262
+msgid "on"
+msgstr "на"
+
+#: src/sysinfo.sh:265
+msgid "Moksha"
+msgstr "Moksha"
+
+#: src/sysinfo.sh:266
+msgid "Kernel"
+msgstr "Ядро"
+
+#: src/sysinfo.sh:272
+msgid "System information"
+msgstr "Звесткі аб сістэме"
+
+#: src/sysinfo.sh:273
+msgid "Copy report"
+msgstr "Капіяваць справаздачу"
+
+#: src/sysinfo.sh:274
+msgid "CPU"
+msgstr "CPU"
+
+#: src/sysinfo.sh:274
+msgid "Memory"
+msgstr "Памяць"
+
+#: src/sysinfo.sh:275
+msgid "Disks"
+msgstr "Дыскі"
+
+#: src/sysinfo.sh:275
+msgid "PCI"
+msgstr "PCI"
+
+#: src/sysinfo.sh:275
+msgid "Modules"
+msgstr "Модулі"
+
+#: src/sysinfo.sh:276
+msgid "Battery"
+msgstr "Батарэя"
+
+#: src/sysinfo.sh:276
+msgid "Network"
+msgstr "Сетка"
+
+#: data/sysinfo.desktop.in.h:1
+msgid "System Information"
+msgstr "Звесткі аб сістэме"
+
+#: data/sysinfo.desktop.in.h:2
+msgid "Display hardware and system information"
+msgstr "Паказаць звесткі аб абсталяванні і сістэме"
+
+#: data/sysinfo.desktop.in.h:3
+msgid "system;hardware;cpu;memory;disk;pci;network;battery;"
+msgstr "сістэма;абсталяванне;cpu;памяць;дыск;pci;сетка;батарэя;"
