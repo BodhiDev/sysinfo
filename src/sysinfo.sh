@@ -137,7 +137,7 @@ yad --plug=$KEY --tabnum=3 --image=memory --text="$(_ "Memory usage information"
 --list --no-selection --column="$(_ "Parameter")" --column="$(_ "Value")" &
  
 # Harddrive tab
-df -T | tail -n +2 | awk '{printf "%s\n%s\n%s\n%s\n%s\n%s\n", $1,$7, $2, $3, $4, $6}' |\
+df -T -B 1 | tail -n +2 | awk '{printf "%s\n%s\n%s\n%s\n%s\n%s\n", $1,$7, $2, $3, $4, $6}' |\
 yad --plug=$KEY --tabnum=4 --image=drive-harddisk --text="$(_ "Disk space usage")" \
 --list --no-selection --column="$(_ "Device")" --column="$(_ "Mountpoint")" --column="$(_ "Type")" \
 --column="$(_ "Total:"):sz" --column="$(_ "Free:"):sz" --column="$(_ "Usage:"):bar" &
