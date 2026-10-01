@@ -100,7 +100,7 @@ do
     esac
 done
 ) | \
-yad --plug=$KEY --tabnum=1 --image=cpu --text="$(_ "CPU information")" \
+yad --plug=$KEY --tabnum=1 --image=processor --text="$(_ "CPU information")" \
 --list --no-selection --column="$(_ "Parameter")" --column="$(_ "Value")" &
 
 # GPU tab
@@ -132,12 +132,12 @@ yad --plug=$KEY --tabnum=2 --image=video-display --text="$(_ "GPU information")"
 --column="$(_ "Parameter")":TEXT --column="$(_ "Value")":TEXT &
 
 # Memory tab
-sed -r "s/:[ ]*/\n/" /proc/meminfo |\
-yad --plug=$KEY --tabnum=3 --image=memory --text="$(_ "Memory usage information")" \
+awk -F':[ \t]+' '{ split($2, a, " "); v = (a[2] == "kB") ? sprintf("%.1f MB", a[1]/1024) : a[1]; printf "%s\n%s\n", $1, v }' /proc/meminfo |\
+yad --plug=$KEY --tabnum=3 --image=media-floppy --text="$(_ "Memory usage information")" \
 --list --no-selection --column="$(_ "Parameter")" --column="$(_ "Value")" &
  
 # Harddrive tab
-df -T -B 1 | tail -n +2 | awk '{printf "%s\n%s\n%s\n%s\n%s\n%s\n", $1,$7, $2, $3, $4, $6}' |\
+df -T -B 1 | tail -n +2 | awk '{printf "%s\n%s\n%s\n%s\n%s\n%s\n", $1, $7, $2, $3, $5, $6}' |\
 yad --plug=$KEY --tabnum=4 --image=drive-harddisk --text="$(_ "Disk space usage")" \
 --list --no-selection --column="$(_ "Device")" --column="$(_ "Mountpoint")" --column="$(_ "Type")" \
 --column="$(_ "Total:"):sz" --column="$(_ "Free:"):sz" --column="$(_ "Usage:"):bar" &
