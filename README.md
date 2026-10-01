@@ -5,12 +5,12 @@ A simple yad based system Info application
 
 It also allows you to copy the report, which you can then share by pasting with **CTRL+V** or right-click -> Paste.
 
-<img width="727" height="488" alt="shot-2026-06-17" src="https://github.com/user-attachments/assets/2be80690-68ce-4f17-8ad0-bcb33bb39bc3" />
+<img width="729" height="485" alt="shot-2026" src="https://github.com/user-attachments/assets/076eaedd-b1ee-4ffb-b800-859a0f51aeaa" />
 
 ### Installation:
 
-- **Compile:**  `make`
+- **Build:**  `dpkg-buildpackage -us -uc -b`
 
-- **Install:**  `sudo make install`
+- **Install:**  `sudo dpkg -i ../bodhi-sysinfo_*.deb`
 
-- **Uninstall:**  `sudo make uninstall`
+- **Uninstall:**  `sudo apt remove bodhi-sysinfo`
